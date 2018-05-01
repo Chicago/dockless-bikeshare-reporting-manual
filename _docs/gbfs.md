@@ -44,6 +44,6 @@ system_alerts.json                  | Describes current system alerts
 
 ## Reporting to Chicago
 
-Companies will need to inform the City of Chicago of the location of the `gbfs.json` file on the internet. The `gbfs.json` file 
+Companies will need to inform the City of Chicago of the location of the `gbfs.json` file on the internet. The `gbfs.json` file contains the necessary information to find other files related to the GBFS data.
 
 If a token or authentication is required to view that file, the location to apply for the token must also be submitted to the City.
