@@ -2,8 +2,8 @@
 # Site
 
 title: Dockless Bikeshare Reporting Manual
-url: "localhost"
-baseurl: ""
+url: "https://chicago.github.io"
+baseurl: "/dockless-bikeshare-reporting-manual"
 google_analytics_key:
 show_full_navigation: true
 
