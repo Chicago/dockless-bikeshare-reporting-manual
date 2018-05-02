@@ -10,12 +10,12 @@ All reports, violations, and complaints issued to the company. Should include al
 
 ## File Format
 
-Session data must be reported using the following schema and reported with the following `[company]-reports-[date].csv`.
+Customer Report data must be reported using the following schema and reported with the following `[company]-reports-[date].csv`.
 
 | Field | Element                  | Data Type           | Required | Description                                                          |
-| R1    | Violation ID             | String              | Yes      | A unique ID for the violation.                                       |
+| R1    | Violation ID             | String              | Yes      | A unique ID for the violation. IDs should be permanently unique, not just unique within the reporting period.                                       |
 | R2    | Date and time reported   | ISO 8601 timestamp  | Yes      | The date and time of when the violation was reported to the vendor.  |
 | R3    | Description              | String              | Yes      | A text description of the violation.                                 |
-| R4    | Resolution               | String              | Yes      | A test description of the violation.                                 |
+| R4    | Resolution               | String              | Yes      | A text description of the violation.                                 |
 | R5    | Latitude                 | Latitude (WGS84)    | Yes      | Latitude of the location of the violation.                           |
 | R6    | Longitude                | Longitude (WGS84)   | Yes      | Longitude of the location of the violation.                          |
