@@ -8,7 +8,7 @@ For Dockless Bikeshare matters relating to anything other than data reporting, p
 
 ## Monthly Data Submissions
 
-Companies are required to submit details on trip, maintenance, and customer reported issues on a monthly basis. Companies must follow the specified schemas when reporting the data and past validation checks before it is accepted by the City of Chicago.
+Companies are required to submit details on trip, maintenance, and customer reported issues on a monthly basis. Companies must follow the specified schemas when reporting the data and pass validation checks before it is accepted by the City of Chicago.
 
 ### Submission Deadlines
 
