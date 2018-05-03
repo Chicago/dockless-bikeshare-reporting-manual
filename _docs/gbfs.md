@@ -16,7 +16,7 @@ Companies may also publish the optional files listed below. Likewise, companies 
 
 #### Required Files
 
-GBFS v1.1 requires at least two files to be published. Moreover, City of Chicago requires that companies also publish four other files. Below are the required files that must be published:
+City of Chicago requires that companies publish six of the GBFS v1.1-draft files. Below are the required files that must be published:
 
 File Name                           | Defines
 ------------------------------------| ----------
