@@ -14,14 +14,14 @@ Companies are required to submit details on trip, maintenance, and customer repo
 
 Data must be submitted and validated by these dates through the duration of the pilot:
 
-|      Due Date      |   Beginning Date   |      End Date      |
-|--------------------|--------------------|--------------------|
-| June X, 2018       | May 1, 2018        | May 31, 2018       |
-| July X, 2018       | June 1, 2018       | June 30, 2018      |
-| August X, 2018     | July 1, 2018       | July 31, 2018      |
-| September X, 2018  | August 1, 2018     | August 31, 2018    |
-| October X, 2018    | September 1, 2018  | September 30, 2018 |
-| November X, 2018   | October 1, 2018    | November 1, 2018   |
+|      Due Date       |   Beginning Date   |      End Date      |
+|---------------------|--------------------|--------------------|
+| June 11, 2018       | May 1, 2018        | May 31, 2018       |
+| July 10, 2018       | June 1, 2018       | June 30, 2018      |
+| August 10, 2018     | July 1, 2018       | July 31, 2018      |
+| September 10, 2018  | August 1, 2018     | August 31, 2018    |
+| October 10, 2018    | September 1, 2018  | September 30, 2018 |
+| November 12, 2018   | October 1, 2018    | November 1, 2018   |
 
 
 ### Submission Format

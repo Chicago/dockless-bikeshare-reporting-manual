@@ -6,7 +6,7 @@ order: 1
 
 ## Scope
 
-All Trips completed during the reporting period.  Trips in progress at the end of the reporting period should be held for the next report.  For the purposes of this file, a trip is a transaction with a specific customer. Trips that end [**sentence fragment; not sure what the end was going to be**]
+All Trips completed during the reporting period.  Trips in progress at the end of the reporting period should be held for the next report.  For the purposes of this file, a trip is a transaction with a single rider.
 
 ## File Format
 
