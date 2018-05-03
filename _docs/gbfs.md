@@ -16,13 +16,17 @@ Companies may also publish the optional files listed below. Likewise, companies 
 
 #### Required Files
 
-GBFS v1.1 requires at least two files to be published. Moreover, City of Chicago requires that companies also publish the `gbfs.json` file. Below are the required files that must be published:
+GBFS v1.1 requires at least two files to be published. Moreover, City of Chicago requires that companies also publish four other files. Below are the required files that must be published:
 
 File Name                           | Defines
 ------------------------------------| ----------
-gbfs.json                           | Auto-discovery file that links to all of the other files published by the system. This file is optional, but highly recommended.
-system_information.json             | Describes the system including System operator, System location, year implemented, URLs, contact info, time zone
-station_information.json            | Mostly static list of all stations, their capacities and locations
+gbfs.json                           | Auto-discovery file that links to all of the other files published by the system. *This file is optional in the GBFS, but required by the City of Chicago*.
+system_information.json             | Describes the system including System operator, System location, year implemented, URLs, contact info, time zone.
+station_information.json            | Mostly static list of all stations, their capacities and locations. *(Note: This file may contain no information in a dockless system but is required by the City of Chicago in order to maintain compliance with the GFBS standard.)*
+free_bike_status.json               | Describes bikes that are available in non station-based systems. *This file is optional in the GBFS, but required by the City of Chicago*.
+geofencing_zone_information.json    | Mostly static list of all geofencing zones, their capacities, locations and areas. *This file is optional in the GBFS, but required by the City of Chicago*.
+geofencing_zone_status.json         | Defines geofencing zones available in the system and their link to physical stations if any. *This file is optional in the GBFS, but required by the City of Chicago*. Elements within the `num_bikes_available_types` array are required by the City of Chicago and should be set to 0 if not applicable.
+
 
 
 #### Optional Files
@@ -32,9 +36,6 @@ These files are supported by GBFS, but are not mandatory:
 File Name                           | Defines
 ------------------------------------|-----------
 station_status.json                 | Number of available bikes and docks at each station and station availability. Optional as system can be free floating.
-geofencing_zone_information.json    | Mostly static list of all geofencing zones, their capacities, locations and areas
-geofencing_zone_status.json         | Defines geofencing zones available in the system and their link to physical stations if any. Optional because system might be based on physical stations only.
-free_bike_status.json               | Describes bikes that are available in non station-based systems
 system_hours.json                   | Describes the hours of operation for the system
 system_calendar.json                | Describes the days of operation for the system
 system_regions.json                 | Describes the regions the system is broken up into

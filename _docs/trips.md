@@ -6,14 +6,14 @@ order: 1
 
 ## Scope
 
-All Trips completed during the reporting period.  Trips in progress at the end of the reporting period should be held for the next report.  For the purposes of this file, a trip is a transaction with a specific customer. Trips that end 
+All Trips completed during the reporting period.  Trips in progress at the end of the reporting period should be held for the next report.  For the purposes of this file, a trip is a transaction with a specific customer. Trips that end [**sentence fragment; not sure what the end was going to be**]
 
 ## File Format
 
 Trip data must be reported using the following schema and reported with the following `[company]-trips-[date].csv`.
 
 | Field | Element        | Data Type           | Required | Description                                                                                       |
-|  T1   | Trip ID        | String              |   Yes    | A unique identifier that identifies the trip.                                                     |
+|  T1   | Trip ID        | String              |   Yes    | A unique identifier that identifies the trip. The identifier should be permanently unique, not just within the reporting period.                                                    |
 |  T2   | Bike ID        | String              |   Yes    | A unique identifier for the bicycle. Should be the same ID used throughout reporting requirements.|
 |  T3   | Start Time     | ISO 8601 timestamp  |   Yes    | The date and time that the trip began.                                                            |
 |  T4   | End Time       | ISO 8601 timestamp  |   Yes    | The date and time that the trip concluded.                                                        |
