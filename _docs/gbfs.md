@@ -6,7 +6,7 @@ order: 1
 
 ## Scope
 
-City of Chicago requires that companies publish information about their system and bike availability using the [General Bikeshare Feed Specification (GBFS) v1.1 (draft spec)](https://github.com/dsgermain/gbfs/tree/f76251ad4c754b62defc42562887724f287b73ea). This data will be used by the city to ensure equity of bike availability and can be used by the transit community to integrate dockless bikeshare data into mobile applications that are used by Chicagoans.
+The City of Chicago requires that companies publish information about their system and bike availability using the [General Bikeshare Feed Specification (GBFS) v1.1 (draft spec)](https://github.com/dsgermain/gbfs/tree/f76251ad4c754b62defc42562887724f287b73ea). This data will be used by the city to ensure equity of bike availability and can be used by the transit community to integrate dockless bikeshare data into mobile applications that are used by Chicagoans.
 
 ## File Format
 
