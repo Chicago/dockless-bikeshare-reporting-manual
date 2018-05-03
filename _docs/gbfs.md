@@ -36,11 +36,11 @@ These files are supported by GBFS, but are not mandatory:
 File Name                           | Defines
 ------------------------------------|-----------
 station_status.json                 | Number of available bikes and docks at each station and station availability. Optional as system can be free floating.
-system_hours.json                   | Describes the hours of operation for the system
-system_calendar.json                | Describes the days of operation for the system
-system_regions.json                 | Describes the regions the system is broken up into
-system_pricing_plans.json           | Describes the system pricing
-system_alerts.json                  | Describes current system alerts
+system_hours.json                   | Describes the hours of operation for the system.
+system_calendar.json                | Describes the days of operation for the system.
+system_regions.json                 | Describes the regions the system is broken up into.
+system_pricing_plans.json           | Describes the system pricing.
+system_alerts.json                  | Describes current system alerts.
 
 
 ## Reporting to Chicago
