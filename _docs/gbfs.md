@@ -26,6 +26,7 @@ station_information.json            | Mostly static list of all stations, their 
 free_bike_status.json               | Describes bikes that are available in non station-based systems. *This file is optional in the GBFS, but required by the City of Chicago*.
 geofencing_zone_information.json    | Mostly static list of all geofencing zones, their capacities, locations and areas. *This file is optional in the GBFS, but required by the City of Chicago*.
 geofencing_zone_status.json         | Defines geofencing zones available in the system and their link to physical stations if any. *This file is optional in the GBFS, but required by the City of Chicago*. Elements within the `num_bikes_available_types` array are required by the City of Chicago and should be set to 0 if not applicable.
+system_regions.json                 | Describes the regions the system is broken up into. *This file is optional in the GBFS, but required by the City of Chicago*.
 
 
 
@@ -38,7 +39,6 @@ File Name                           | Defines
 station_status.json                 | Number of available bikes and docks at each station and station availability. Optional as system can be free floating.
 system_hours.json                   | Describes the hours of operation for the system.
 system_calendar.json                | Describes the days of operation for the system.
-system_regions.json                 | Describes the regions the system is broken up into.
 system_pricing_plans.json           | Describes the system pricing.
 system_alerts.json                  | Describes current system alerts.
 
