@@ -12,7 +12,7 @@ Companies are required to submit details on trip, maintenance, and customer repo
 
 ### Submission Deadlines
 
-Data must be submitted and valided by these dates through the duration of the pilot:
+Data must be submitted and validated by these dates through the duration of the pilot:
 
 |      Due Date      |   Beginning Date   |      End Date      |
 |--------------------|--------------------|--------------------|
@@ -32,7 +32,7 @@ Submit three separate CSV files with the following naming convention, where [com
 [company]-[topic]-[date].csv
 ```
 
-Four files should be submitted for [trips](trips), [reports](reports), and [maintenance](maintenance).
+Three files should be submitted for [trips](trips), [reports](reports), and [maintenance](maintenance).
 
 ## Bike and System Availability
 
