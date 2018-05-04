@@ -26,7 +26,7 @@ Data must be submitted and validated by these dates through the duration of the 
 
 ### Submission Format
 
-Submit three separate CSV files with the following naming convention, where [company] denotes the submitting company, [topic] represents one of the four areas being requested: trips, reports, and maintenance, and date corresponds to the period covered by the file (not the period when the file is submitted). For instance, ACME service submitting the trips file for data pertaining to May 2018 would submit "acme-trips-201805.csv".
+Submit three separate CSV files with the following naming convention, where [company] denotes the submitting company; [topic] represents one of the three areas being requested: trips, reports, and maintenance; and date corresponds to the period covered by the file (not the period when the file is submitted). For instance, ACME service submitting the trips file for data pertaining to May 2018 would submit "acme-trips-201805.csv".
 
 ```
 [company]-[topic]-[date].csv
