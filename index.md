@@ -12,7 +12,7 @@ Companies are required to submit details on trip, maintenance, and customer repo
 
 ### Submission Deadlines
 
-Data must be submitted and validated by these dates through the duration of the pilot:
+Data meeting the requirements of this manual must be submitted on or before these dates through the duration of the pilot:
 
 |      Due Date       |   Beginning Date   |      End Date      |
 |---------------------|--------------------|--------------------|
