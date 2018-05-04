@@ -38,6 +38,6 @@ Three files should be submitted for [trips](trips), [reports](reports), and [mai
 
 Companies must make data on bicycle and system availability to the public using the General Bikeshare Feed Specification (GBFS). The current requirement is to post feeds that comply with the draft specification of [GBFS v1.1](https://github.com/dsgermain/gbfs/blob/f76251ad4c754b62defc42562887724f287b73ea/gbfs.md). 
 
-Companies will need to make sure the GBFS feed is publicly available where it can be accessed without a username or password. Companies may request a token or authentication be used to access the GBFS feed; however, the process to receive a token needs to be available to the public.
+Companies must publish the GBFS feed where it can be accessed without a username or password. Companies may request a token or authentication be used to access the GBFS feed; however, the process to receive a token needs to be available to the public.
 
 See the [bike and system availability](gbfs) section for specific details.
