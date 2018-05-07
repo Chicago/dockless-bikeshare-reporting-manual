@@ -2,9 +2,7 @@
 title: Overview
 ---
 
-As part of its licensing process for Dockless Bikeshare companies, Chicago requires the companies to report on their activities each month and to provide publicly accessible information on bike and system availability. 
-
-For Dockless Bikeshare matters relating to anything other than data reporting, please e-mail [E-MAIL ADDRESS HERE](#).
+As part of its licensing process for Dockless Bikeshare companies, Chicago requires the companies to report on their activities each month and to provide publicly accessible information on bike and system availability.
 
 ## Monthly Data Submissions
 
