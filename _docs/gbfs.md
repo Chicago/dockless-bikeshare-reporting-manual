@@ -22,7 +22,7 @@ File Name                           | Defines
 ------------------------------------| ----------
 gbfs.json                           | Auto-discovery file that links to all of the other files published by the system. *This file is optional in the GBFS, but required by the City of Chicago*.
 system_information.json             | Describes the system including System operator, System location, year implemented, URLs, contact info, time zone.
-station_information.json            | Mostly static list of all stations, their capacities and locations. *(Note: This file may contain no information in a dockless system but is required by the City of Chicago in order to maintain compliance with the GFBS standard.)*
+station_information.json            | Mostly static list of all stations, their capacities and locations. *(Note: This file may contain no information in a dockless system but is required by the City of Chicago in order to maintain compliance with the GBFS standard.)*
 free_bike_status.json               | Describes bikes that are available in non station-based systems. *This file is optional in the GBFS, but required by the City of Chicago*.
 geofencing_zone_information.json    | Mostly static list of all geofencing zones, their capacities, locations and areas. *This file is optional in the GBFS, but required by the City of Chicago*.
 geofencing_zone_status.json         | Defines geofencing zones available in the system and their link to physical stations if any. *This file is optional in the GBFS, but required by the City of Chicago*. Elements within the `num_bikes_available_types` array are required by the City of Chicago and should be set to 0 if not applicable.
