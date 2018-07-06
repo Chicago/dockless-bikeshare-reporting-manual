@@ -15,8 +15,8 @@ Trip data must be reported using the following schema and reported with the foll
 | Field | Element        | Data Type           | Required | Description                                                                                       |
 |  T1   | Trip ID        | String              |   Yes    | A unique identifier that identifies the trip. The identifier should be permanently unique, not just within the reporting period.                                                    |
 |  T2   | Bike ID        | String              |   Yes    | A unique identifier for the bicycle. Should be the same ID used throughout reporting requirements.|
-|  T3   | Start Time     | ISO 8601 timestamp  |   Yes    | The date and time that the trip began.                                                            |
-|  T4   | End Time       | ISO 8601 timestamp  |   Yes    | The date and time that the trip concluded.                                                        |
+|  T3   | Start Time     | ISO 8601 (YYYY-MM-DDTHH:MM:SS+00:00) |   Yes    | The date and time that the trip began (e.g., 2018-06-30T20:06:06-05:00). |
+|  T4   | End Time       | ISO 8601 (YYYY-MM-DDTHH:MM:SS+00:00) |   Yes    | The date and time that the trip concluded (e.g., 2018-06-30T20:06:06-05:00). |
 |  T5   | From Latitude  | Latitude (WGS84)    |   Yes    | Latitude of where the trip began.                                                                 |
 |  T6   | From Longitude | Longitude (WGS84)   |   Yes    | Longitude of where the trip began.                                                                |
 |  T7   | To Latitude    | Latitude (WGS84)    |   Yes    | Latitude of where the trip ended.                                                                 |
