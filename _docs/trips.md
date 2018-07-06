@@ -17,10 +17,10 @@ Trip data must be reported using the following schema and reported with the foll
 |  T2   | Bike ID        | String              |   Yes    | A unique identifier for the bicycle. Should be the same ID used throughout reporting requirements.|
 |  T3   | Start Time     | ISO 8601 timestamp  |   Yes    | The date and time that the trip began.                                                            |
 |  T4   | End Time       | ISO 8601 timestamp  |   Yes    | The date and time that the trip concluded.                                                        |
-|  T5   | From Latitude  | Latitude (WGS83)    |   Yes    | Latitude of where the trip began.                                                                 |
-|  T6   | From Longitude | Longitude (WGS83)   |   Yes    | Longitude of where the trip began.                                                                |
-|  T7   | To Latitude    | Latitude (WGS83)    |   Yes    | Latitude of where the trip ended.                                                                 |
-|  T8   | To Longitude   | Longitude (WGS83)   |   Yes    | Longitude of where the trip ended.                                                                |
+|  T5   | From Latitude  | Latitude (WGS84)    |   Yes    | Latitude of where the trip began.                                                                 |
+|  T6   | From Longitude | Longitude (WGS84)   |   Yes    | Longitude of where the trip began.                                                                |
+|  T7   | To Latitude    | Latitude (WGS84)    |   Yes    | Latitude of where the trip ended.                                                                 |
+|  T8   | To Longitude   | Longitude (WGS84)   |   Yes    | Longitude of where the trip ended.                                                                |
 |  T9   | Trip Distance  | Numeric (feet)      |   Yes    | The amount of distance the bicycle traveled during the course of the trip.                        |
 
 
